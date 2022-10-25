@@ -4,6 +4,10 @@ body {
     margin: 0;
 }
 
+#top {
+    background-color: #1F2937;
+}
+
 #header,
 #hero {
     background-color: #1F2937;
@@ -42,20 +46,29 @@ body {
 }
 
 #hero {
+    width: 750px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 100px;
 }
 
-#hero-left,
-#hero-right {
+#hero-left {
     flex: 1;
 }
 
 #hero-right {
+    flex: 1;
     background-color: #8a8b8c;
+    color: #f9faf8;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #f9faf8;
 }
 
 button {
@@ -65,4 +78,92 @@ button {
     color: #f9faf8;
     height: 30px;
     width: 90px;
+}
+
+#random {
+    margin: auto;
+    padding-top: 40px;
+}
+
+#center {
+    width: 700px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.random-block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.random-img {
+    width: 100%;
+    padding-top: 100%;
+    border: 3px solid #3882f6;
+    border-radius: 20px;
+}
+
+.random-txt {
+    font-size: 18px;
+    color: #6e6e6e;
+    text-align: center;
+}
+
+#quote-background {
+    background-color: #E5E7EB;
+}
+
+#quote {
+    background-color: #E5E7EB;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-top: 40px;
+}
+
+#author {
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#call-to-action {
+    flex-basis: 700px;
+    margin: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    color: #f9faf8
+}
+
+#bottom-header,
+#bottom-p {
+    margin: 0px;
+}
+
+#bottom-button {
+    border: 3px solid white;
 }
